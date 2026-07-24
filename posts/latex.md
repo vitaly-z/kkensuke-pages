@@ -1,7 +1,7 @@
 ---
-title: "このブログのMarkdownでLaTeXを使う"
+title: "このブログの Markdown で LaTeX を使う"
 date: "2024-7-5"
-subtitle: "このブログのMarkdownでLaTeXを使う方法"
+subtitle: "このブログの Markdown で LaTeX を使う方法"
 tags: [Markdown, Latex]
 ---
 
@@ -16,7 +16,7 @@ tags: [Markdown, Latex]
     - アインシュタインの有名な式：$E = mc^2$
     ```
     出力：
-    
+
     インライン数式の例：
     - 円の面積：$A = \pi r^2$
     - 二次方程式の解の公式：$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
@@ -32,7 +32,7 @@ tags: [Markdown, Latex]
     $$
     ```
     出力：
-    
+
     ガウス積分：
     $$
     \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}
@@ -228,7 +228,7 @@ $$
 
 
 
-:::note{title="LaTeXにおける空白"}
+:::note{title="LaTeX における空白"}
 | 種類 | 記法 | 出力 |
 | - | - | - |
 | 負の空白 | `$a \! b$` | $a\!b$ |

@@ -29,7 +29,7 @@ https://www.mozilla.org/ja/firefox/new/
 
 2. カスタマイズしやすいツールバー。ツールバー上で右クリックして「ツールバーをカスタマイズ」を選ぶと、次の画面が出てきます。ドラック&ドロップでアイコンを追加&削除できます。
     ![screenshot-1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/a9a7b421-b8ce-c5df-6ccf-66c7e65bcd22.png)
-    
+
 3. サイドバー：以下の様々な情報へのアクセスが簡単になります。
     - ブックマーク
     - 閲覧履歴
@@ -159,7 +159,7 @@ Open in Sidebar を使用すると、サイドバーに別のウェブサイト�
 https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/
 :::
 
-Print Edit WE を使用すると、プリントプレビューモードでWebページのコンテンツを編集できます。例えば、広告の部分だけ削除してからプリントアウトすることが可能です。
+Print Edit WE を使用すると、プリントプレビューモードで Web ページのコンテンツを編集できます。例えば、広告の部分だけ削除してからプリントアウトすることが可能です。
 ::::
 
 ::::simple
@@ -186,7 +186,7 @@ Simple Translate は、シンプルで軽量な翻訳ツールです。選択し
 https://addons.mozilla.org/en-US/firefox/addon/single-file/
 :::
 
-SingleFile は、CSS、画像、フォント、フレームなどを含めた完全なページを1つのHTMLファイルとして保存することを可能にします。アノテーションしてから保存したり、ページ全体だけでなく、選択した範囲だけを保存することも可能です。
+SingleFile は、CSS、画像、フォント、フレームなどを含めた完全なページを 1 つの HTML ファイルとして保存することを可能にします。アノテーションしてから保存したり、ページ全体だけでなく、選択した範囲だけを保存することも可能です。
 ::::
 
 ::::simple
@@ -227,7 +227,7 @@ Wappalyzer はウェブサイトで用いられている技術を表示します
 https://www.zotero.org/download/connectors
 :::
 
-Zotero Connector は、ウェブブラウザー内のコンテンツを自動的に検出し、1クリックでZoteroライブラリに追加できます。[Zotero](https://www.zotero.org/) というアプリ自体は文献管理にとても役立ちます。
+Zotero Connector は、ウェブブラウザー内のコンテンツを自動的に検出し、1 クリックで Zotero ライブラリに追加できます。[Zotero](https://www.zotero.org/) というアプリ自体は文献管理にとても役立ちます。
 ![zotero-connector.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/fb3c63c1-6de7-2236-ddd8-7ea5f2189985.png#center)
 ::::
 
@@ -237,7 +237,7 @@ Zotero Connector は、ウェブブラウザー内のコンテンツを自動的
 https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
 :::
 
-Enhancer for YouTube は、ビデオの再生速度制御、シネマモード、スクリーンショットなど、多くの便利な機能をYouTubeに追加します。ビデオの速度を0.05から(0.01、0.02、0.05、0.1、0.2、0.25、0.5、1)の間隔で微調整でき、2倍以上の速度にすることも可能です。
+Enhancer for YouTube は、ビデオの再生速度制御、シネマモード、スクリーンショットなど、多くの便利な機能を YouTube に追加します。ビデオの速度を 0.05 から(0.01、0.02、0.05、0.1、0.2、0.25、0.5、1)の間隔で微調整でき、2 倍以上の速度にすることも可能です。
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/0d3eb5df-c088-e883-d43b-67e94801d644.png)
 ::::
 
@@ -246,7 +246,7 @@ Enhancer for YouTube は、ビデオの再生速度制御、シネマモード�
 https://addons.mozilla.org/en-US/firefox/addon/videospeed/
 :::
 
-Video Speed Controller この拡張機能は動画の再生速度制御、スキップ機能、一時停止程度ですが、`Enhancer for YouTube`と異なり、YouTube だけでなくAmazonプライムなど、どんな動画でも簡単なショートカットキーで機能して便利です。ビデオの速度は細かく調整でき、2倍速以上にすることも可能です。
+Video Speed Controller この拡張機能は動画の再生速度制御、スキップ機能、一時停止程度ですが、`Enhancer for YouTube` と異なり、YouTube だけでなく Amazon プライムなど、どんな動画でも簡単なショートカットキーで機能して便利です。ビデオの速度は細かく調整でき、2 倍速以上にすることも可能です。
 ::::
 
 ::::simple
@@ -254,7 +254,7 @@ Video Speed Controller この拡張機能は動画の再生速度制御、スキ
 https://addons.mozilla.org/en-US/firefox/addon/youtube-audio/
 :::
 
-Youtube Audio を使用すると、YouTubeビデオの音声のみを再生でき、メモリの消費を抑えることができます。
+Youtube Audio を使用すると、YouTube ビデオの音声のみを再生でき、メモリの消費を抑えることができます。
 ::::
 
 ::::simple
@@ -302,7 +302,7 @@ https://addons.mozilla.org/en-US/firefox/addon/clearurls/
 https://addons.mozilla.org/en-US/firefox/addon/neat-url/
 :::
 
-ClearURLs または Neat URL は URL から不要な情報を削除します。 
+ClearURLs または Neat URL は URL から不要な情報を削除します。
 
 :::warning
 前者は Simple tab groups と併用すると問題が発生します。(コンテナ上で開く新しいタブが複製される)
@@ -322,7 +322,7 @@ Cookie AutoDelete は、開いているブラウザタブで使用されなく�
 https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
 :::
 
-Decentraleyes は、Google Hosted Librariesなどからのリクエストを大幅に減らします。通常のコンテンツブロッカーを補完します。
+Decentraleyes は、Google Hosted Libraries などからのリクエストを大幅に減らします。通常のコンテンツブロッカーを補完します。
 ::::
 
 ::::simple
@@ -338,7 +338,7 @@ Firefox Relay によって、自分のメールアドレスに紐付いたエイ
 https://addons.mozilla.org/en-US/firefox/addon/10-minutes-disposable-email/
 :::
 
-10 minute mail は、10分間だけ有効な一時的なメールアドレスを生成します。一時的に試してみたいサービスのサインアップに便利です。
+10 minute mail は、10 分間だけ有効な一時的なメールアドレスを生成します。一時的に試してみたいサービスのサインアップに便利です。
 
 ![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/4e632eb5-dcb7-6cff-2d40-0e926b0b0535.png 'width=300px')
 ::::
@@ -395,14 +395,14 @@ WebRTC は Web Real-Time Communication（Web リアルタイム通信）の略�
 `about:config` の項目はバージョンアップによって変更される場合があります。古いサイトにはすでに存在しない項目が挙げられている場合があります。
 :::
 
-1. まず、検索バーに `about:config` と入力してEnterキーを押してください。
+1. まず、検索バーに `about:config` と入力して Enter キーを押してください。
 2. 警告ページが表示されますが、そのままクリックして進めます。
 
 - PDFプレビューをダークテーマにするには以下の設定を `2` に変更する
     ```
     pdfjs.viewerCssTheme    2
     ```
-    
+
 - ピンチ機能を有効にするには、以下の設定を `true` に変更する
     ```
     browser.gesture.pinch.latched    true
@@ -412,12 +412,12 @@ WebRTC は Web Real-Time Communication（Web リアルタイム通信）の略�
     ```
     browser.tabs.loadBookmarksInTabs    true
     ```
-    
+
 - 全てのテキストボックスでスペルチェックが有効になるように設定する
     ```
     layout.spellcheckDefault    2
     ```
-    
+
 - 最後のタブを閉じてもウィンドウは開いたままにする
     ```
     browser.tabs.closeWindowWithLastTab    false
@@ -450,35 +450,35 @@ WebRTC は Web Real-Time Communication（Web リアルタイム通信）の略�
 
 ## 5　セキュリティ設定
 ### 5-1　安全なインターネット接続
-- VPNを使用する
+- VPN を使用する
 - [Cloudfare](https://developers.cloudflare.com/1.1.1.1/setup/)を有効にする
-- ECHを有効にする
-- WebRTCを無効にする
+- ECH を有効にする
+- WebRTC を無効にする
 
 参考　[Firefox プライバシー - ArchWiki](https://wiki.archlinux.jp/index.php/Firefox_%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC)
 
 #### 5-1-1　VPN
-仮想プライベートネットワーク（VPN）は、IPアドレスを隠したり、インターネットトラフィックを暗号化したり、地域制限のあるコンテンツにアクセスできるなどのメリットがあります。
+仮想プライベートネットワーク（VPN）は、IP アドレスを隠したり、インターネットトラフィックを暗号化したり、地域制限のあるコンテンツにアクセスできるなどのメリットがあります。
 
 #### 5-1-2　CloudflareでDoH（DNS-over-HTTPS）を有効にする
 1. :btn[cmd] + :btn[,] で環境設定ページにアクセスします。
 2. 「ネットワーク設定」までスクロールし、「設定...」をクリックします。
-3. 「DNS over HTTPSを有効にする」を選択し、プロバイダーとして「Cloudflare」or「NextDNS」を選択します。
+3. 「DNS over HTTPS を有効にする」を選択し、プロバイダーとして「Cloudflare」or「NextDNS」を選択します。
 4. 「OK」をクリックしてタブを閉じます。
 
 #### 5-1-3　ECH（Encrypted Client Hello）を有効にする
-1. Firefoxを開き、`about:config` にアクセスします。
+1. Firefox を開き、`about:config` にアクセスします。
 2. `network.dns` を検索します。
 3. `network.dns.echconfig.enabled` を `true` に設定します。
 4. `network.dns.http3_echconfig.enabled` を `true` に設定します。
 
 #### 5-1-4　WebRTCを無効にする
 :::note
-WebRTCはWebリアルタイム通信の略で、ブラウザ間で外部ソフトウェアやプラグインを必要とせずにインターネットを通じて音声やビデオ通信を直接行う技術です。ビデオ会議やリアルタイム通信には便利ですが、プライバシー上の問題としてIPアドレスの漏洩も懸念されます。ブラウザでWebRTCを無効にすると、IPの漏洩を防ぐことができます。
+WebRTC は Web リアルタイム通信の略で、ブラウザ間で外部ソフトウェアやプラグインを必要とせずにインターネットを通じて音声やビデオ通信を直接行う技術です。ビデオ会議やリアルタイム通信には便利ですが、プライバシー上の問題として IP アドレスの漏洩も懸念されます。ブラウザで WebRTC を無効にすると、IP の漏洩を防ぐことができます。
 :::
 
-WebRTCを無効にする：
-1. Firefoxを開き、`about:config` にアクセスします。
+WebRTC を無効にする：
+1. Firefox を開き、`about:config` にアクセスします。
 2. `media.peerconnection.enabled` を検索し、`false` に設定します。
 
 [WebRTC Leak Shield](https://addons.mozilla.org/en-US/firefox/addon/webrtc-leak-shield/)：この拡張機能を使用すると、上記の設定を簡単に切り替えることができます。
@@ -517,7 +517,7 @@ browser.compactmode.show    true
     4. `false` になっていたら `true` に変更します。
 
 2. 次に `chrome/userChrome.css` を作成します。
-    1. まず以下のコードをターミナルで実行して、デスクトップ上に`chrome/userChrome.css` を作ります。
+    1. まず以下のコードをターミナルで実行して、デスクトップ上に `chrome/userChrome.css` を作ります。
         ```bash
         mkdir ~/Desktop/chrome; cd ~/Desktop/chrome; touch userChrome.css
         ```

@@ -1,7 +1,7 @@
 ---
-title: "このブログのMarkdownにおける画像"
+title: "このブログの Markdown における画像"
 date: "2024-7-27"
-subtitle: "このブログのMarkdownで画像を使う方法"
+subtitle: "このブログの Markdown で画像を使う方法"
 previewImage: "/images/classic_nes_controller.jpg"
 tags: [Markdown]
 ---
@@ -15,7 +15,7 @@ tags: [Markdown]
 
 ![画像](/images/classic_nes_controller.jpg)
 
-## 幅を500pxに指定した画像
+## 幅を 500px に指定した画像
 
 ```markdown
 ![画像](/images/classic_nes_controller.jpg "width=500px")

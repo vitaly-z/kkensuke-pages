@@ -1,14 +1,20 @@
 ---
-title: "このブログのMarkdownにおけるコードブロック"
+title: "このブログの Markdown におけるコードブロック"
 date: "2024-5-5"
-subtitle: "このブログのMarkdownでコードブロックを使う方法"
+subtitle: "このブログの Markdown におけるコードブロック"
 tags: [Markdown, Code]
 ---
 
 
 ## インラインコード
 
+:::simple
+```md[title=markdown]
 これは `インラインコード` です。
+```
+
+これは `インラインコード` です。
+:::
 
 ## コードブロック
 
@@ -113,10 +119,10 @@ function createElement({ node, style, useInlineStyles, key }) {
 
 ## GitHubからコードを読み込む
 
-`github-code` ディレクティブにGitHubの `blob` URLを指定します。記事の表示時にコードが取得され、通常のコードブロックと同じシンタックスハイライト、コピーボタン、任意の行番号が適用されます。
+`github-code` ディレクティブに GitHub の `blob` URL を指定します。記事の表示時にコードが取得され、通常のコードブロックと同じシンタックスハイライト、コピーボタン、任意の行番号が適用されます。
 
 ````md[title=markdown]
-# titleを省略すると、ファイル名がタイトルとして使われます。
+# title を省略すると、ファイル名がタイトルとして使われます。
 ::github-code{url="https://github.com/kkensuke/pages/blob/main/next.config.js" title="next.config.js" language="javascript" showLineNumbers=true lines="2-8"}
 ````
 

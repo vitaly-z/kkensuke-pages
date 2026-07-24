@@ -11,7 +11,7 @@ tags: [Productivity]
 - Espanso とは、オープンソースかつ無料で使用できる、クロスプラットフォーム（Windows、macOS、Linux）のスニペットアプリ。
 - 短いキーワードを入力するだけで、長いテキストを瞬時に入力できる。これにより、繰り返し入力する必要のあるテキストを簡単に入力できるようになる。
 - Mac 標準のテキスト辞書よりも高速で、多機能。
-- さらに、Shell script を呼び出すことができるので、ただのスニペットアプリとしてだけでなく、アプリやファイルを開いたり、APIを呼び出すことができるなど、非常に拡張性が高い。
+- さらに、Shell script を呼び出すことができるので、ただのスニペットアプリとしてだけでなく、アプリやファイルを開いたり、API を呼び出すことができるなど、非常に拡張性が高い。
     - 例えば、クリップボードにコピーしたテキストを LLM の API で即時翻訳させることができ、作業中のアプリから離れる必要もなくなる。
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/1beaf074-0f49-9d46-a9c1-df9602a1d95a.png)
@@ -34,7 +34,7 @@ https://espanso.org/docs/install/mac/
 https://espanso.org/docs/get-started/
 :::
 
-Espanso の設定は主に2つのファイルで行います。
+Espanso の設定は主に 2 つのファイルで行います。
 
 ```bash
 espanso/
@@ -60,7 +60,7 @@ espanso/
 
 基本的には次のような文法で書きます。
 ```yml
-matches: 
+matches:
   - trigger: ";hello"
     replace: "world"
 
@@ -306,7 +306,7 @@ matches:
         # cmd: "powershell -command \"[guid]::NewGuid().ToString()\""
 ```
 
-以下の複数の例は、本来のアプリの趣旨とは異なりますが、アプリやWebサイト、ファイルを開くためのトリガーです。
+以下の複数の例は、本来のアプリの趣旨とは異なりますが、アプリや Web サイト、ファイルを開くためのトリガーです。
 
 まずは、ターミナルや特定のフォルダを開くトリガー。
 ```yml
@@ -423,9 +423,9 @@ VScode の `settings.json` の設定を切り替えるトリガー。以下の�
             - Webpage to Markdown Conversion by https://urltomarkdown.herokuapp.com/
             - Source URL: {{clipboard}}
             - Conversion Timestamp: {{now}}
-            
+
             ===================================================
-            
+
             {{output}}
     vars:
       - name: output
@@ -436,7 +436,7 @@ VScode の `settings.json` の設定を切り替えるトリガー。以下の�
 ```
 
 
-次のトリガーはEspansoの真骨頂です。 クリップボードにテキストをコピーし、`;jet` と入力するだけで、カーソル位置に Google Gemini による英語訳が挿入されます。`global_vars` に `GEMINI_API_KEY` を定義した上で使用してください。同じファイルに定義することもできますが、GitHub などで管理する場合は公開しないように注意してください。`GEMINI_API_KEY` の取得は[こちらから](https://aistudio.google.com/api-keys)
+次のトリガーは Espanso の真骨頂です。 クリップボードにテキストをコピーし、`;jet` と入力するだけで、カーソル位置に Google Gemini による英語訳が挿入されます。`global_vars` に `GEMINI_API_KEY` を定義した上で使用してください。同じファイルに定義することもできますが、GitHub などで管理する場合は公開しないように注意してください。`GEMINI_API_KEY` の取得は[こちらから](https://aistudio.google.com/api-keys)
 ```yml
 global_vars:
   - name: GEMINI_API_KEY
@@ -472,7 +472,7 @@ matches:
 ```
 
 :::note
-jq コマンドが必要です: `brew install jq`。APIからのJSONレスポンスを解析するために使用します。
+`jq` コマンドが必要です: `brew install jq`。API からの JSON レスポンスを解析するために使用します。
 :::
 
 :::warning
@@ -547,14 +547,14 @@ matches:
   - trigger: ";reply"
     form: |
         Hi, [[name]]
-        
+
         Thank you for your email and for bringing this to our attention.
         I am sorry that you're disappointed with our product.
-        
+
         [[choices]]
 
         Looking forward to hearing from you
-        
+
         All the best，
         ABC Support Team
     form_fields:
@@ -659,9 +659,9 @@ matches:
 
 
 ## まとめ
-Espansoは、単純なテキスト置換ツールに留まらず、シェルスクリプト、外部API、対話フォームを駆使することで、日々のPC作業を劇的に効率化する強力なパーソナル自動化ツールです。
+Espanso は、単純なテキスト置換ツールに留まらず、シェルスクリプト、外部 API、対話フォームを駆使することで、日々の PC 作業を劇的に効率化する強力なパーソナル自動化ツールです。
 
-この記事で紹介した例はほんの一部です。ぜひあなた自身の定型業務や面倒な作業を見つけ出し、Espansoで自動化してみてください。
+この記事で紹介した例はほんの一部です。ぜひあなた自身の定型業務や面倒な作業を見つけ出し、Espanso で自動化してみてください。
 
 
 ## 参考リンク
@@ -675,5 +675,5 @@ https://github.com/kkensuke/espanso/tree/main/match
 https://ee.qqv.com.au/usage/cookbook/
 :::
 
-また、Espanso Hubでは他のユーザーが作成したパッケージを簡単に追加できます。
+また、Espanso Hub では他のユーザーが作成したパッケージを簡単に追加できます。
 

@@ -1,16 +1,16 @@
 ---
-title: "このブログのMarkdownで使えるAdmonition"
+title: "このブログの Markdown で使える Admonition"
 date: "2024-10-31"
-subtitle: "このブログのMarkdownでAdmonitionとディレクティブを使う方法"
+subtitle: "このブログの Markdown で Admonition とディレクティブを使う方法"
 tags: [Markdown]
 ---
 
 
-このガイドでは、記事を分かりやすく見せるために、このブログのMarkdownでAdmonitionとディレクティブを使う方法を説明します。
+このガイドでは、記事を分かりやすく見せるために、このブログの Markdown で Admonition とディレクティブを使う方法を説明します。
 
 ## インラインディレクティブ `:name[label]{attributes}`
 インラインディレクティブを使うと、文章の一部に特別な書式や機能を追加できます。
-よくある用途の1つは、キーボードショートカットやUI要素を表すボタンの作成です。
+よくある用途の 1 つは、キーボードショートカットや UI 要素を表すボタンの作成です。
 
 ::::simple{title="ボタン"}
 ```markdown
@@ -23,22 +23,22 @@ tags: [Markdown]
 :::
 ::::
 
-別の例として、文章中にYouTubeへのリンクを埋め込めます。
+別の例として、文章中に YouTube へのリンクを埋め込めます。
 
-::::simple{title="YouTubeリンク"}
+::::simple{title="YouTube リンク"}
 ```markdown
-YouTubeで動画を見る：:youtube[ここをクリック]{#dQw4w9WgXcQ}
+YouTube で動画を見る：:youtube[ここをクリック]{#dQw4w9WgXcQ}
 ```
 :::simple
-YouTubeで動画を見る：:youtube[ここをクリック]{#dQw4w9WgXcQ}
+YouTube で動画を見る：:youtube[ここをクリック]{#dQw4w9WgXcQ}
 :::
 ::::
 
 
 ## ブロックディレクティブ `::name[label]{attributes}`
-### YouTube埋め込み
-ブロックディレクティブを使うと、YouTube動画を独立したブロックとして埋め込めます。
-::::simple{title="YouTube埋め込み"}
+### YouTube 埋め込み
+ブロックディレクティブを使うと、YouTube 動画を独立したブロックとして埋め込めます。
+::::simple{title="YouTube 埋め込み"}
 ```markdown
 ::youtube[この動画を見る]{#dQw4w9WgXcQ}
 ```
@@ -48,7 +48,7 @@ YouTubeで動画を見る：:youtube[ここをクリック]{#dQw4w9WgXcQ}
 
 
 ### アートブロック
-装飾用のSVGパターンを埋め込む `::art` ディレクティブもあります。記事に視覚的なアクセントを加えられます。
+装飾用の SVG パターンを埋め込む `::art` ディレクティブもあります。記事に視覚的なアクセントを加えられます。
 ::::simple{title="アートブロック"}
 ```markdown
 ::art{type="wave" color="blue"}
@@ -58,8 +58,8 @@ YouTubeで動画を見る：:youtube[ここをクリック]{#dQw4w9WgXcQ}
 ::::
 
 
-### GitHubからコードを読み込む
-`github-code` ディレクティブにGitHubの `blob` URLを指定します。記事の表示時にコードが取得され、通常のコードブロックと同じシンタックスハイライト、コピーボタン、任意の行番号が適用されます。titleを省略すると、ファイル名がタイトルとして使われます。
+### GitHub からコードを読み込む
+`github-code` ディレクティブに GitHub の `blob` URL を指定します。記事の表示時にコードが取得され、通常のコードブロックと同じシンタックスハイライト、コピーボタン、任意の行番号が適用されます。title を省略すると、ファイル名がタイトルとして使われます。
 
 ::::simple{title="GitHub Code Block"}
 ```markdown
@@ -96,7 +96,7 @@ https://github.com
 
 ## Admonition
 
-Admonitionは、重要な情報を目立たせるための特別な書式を持つコンテンツブロックです。
+Admonition は、重要な情報を目立たせるための特別な書式を持つコンテンツブロックです。
 
 ### 基本構文
 
@@ -111,52 +111,52 @@ Admonitionは、重要な情報を目立たせるための特別な書式を持�
 ::::simple
 ```markdown
 :::note
-これはnoteのAdmonitionです。
+これは note の Admonition です。
 :::
 ```
 :::note
-これはnoteのAdmonitionです。
+これは note の Admonition です。
 :::
 ::::
 
 :::overview
-これはoverviewのAdmonitionです。
+これは overview の Admonition です。
 :::
 
 :::warning
-これはwarningのAdmonitionです。
+これは warning の Admonition です。
 :::
 
 :::important
-これはimportantのAdmonitionです。
+これは important の Admonition です。
 :::
 
 :::tip
-これはtipのAdmonitionです。
+これは tip の Admonition です。
 :::
 
 :::example
-これはexampleのAdmonitionです。
+これは example の Admonition です。
 :::
 
 :::comment
-これはcommentのAdmonitionです。
+これは comment の Admonition です。
 :::
 
 :::quote
-これはquoteのAdmonitionです。
+これは quote の Admonition です。
 :::
 
 :::question
-これはquestionのAdmonitionです。
+これは question の Admonition です。
 :::
 
-:::simple{title="タイトル付きのSimple Admonition"}
-これは独自タイトルを指定したsimpleのAdmonitionです。
+:::simple{title="タイトル付きの Simple Admonition"}
+これは独自タイトルを指定した simple の Admonition です。
 :::
 
 :::simple
-これはタイトルを指定していないsimpleのAdmonitionです。
+これはタイトルを指定していない simple の Admonition です。
 :::
 
 ### 独自タイトル
@@ -164,24 +164,24 @@ Admonitionは、重要な情報を目立たせるための特別な書式を持�
 ::::simple
 ```markdown
 :::note{title="知っていましたか？"}
-どのAdmonitionにも独自のタイトルを設定できます。
+どの Admonition にも独自のタイトルを設定できます。
 :::
 ```
 
 :::note{title="知っていましたか？"}
-どのAdmonitionにも独自のタイトルを設定できます。
+どの Admonition にも独自のタイトルを設定できます。
 :::
 ::::
 
-### Admonitionの入れ子
+### Admonition の入れ子
 
-開始タグと終了タグのコロンを増やすと、Admonitionを入れ子にできます。
+開始タグと終了タグのコロンを増やすと、Admonition を入れ子にできます。
 
-::::note{title="外側のAdmonition"}
-これは外側のAdmonitionです。
+::::note{title="外側の Admonition"}
+これは 外側 の Admonition です。
 
 :::important{title="内側のAdmonition"}
-これは入れ子になったimportantのAdmonitionです。
+これは入れ子になった important の Admonition です。
 :::
 ::::
 
@@ -189,6 +189,6 @@ Admonitionは、重要な情報を目立たせるための特別な書式を持�
 
 1. 文章の流れに含まれる要素にはインラインディレクティブ（`:`）を使います。
 2. 埋め込みなどの独立した要素にはブロックディレクティブ（`::`）を使います。
-3. 内容に合ったAdmonitionの種類を選びます。
-4. Admonitionには、内容が分かる明確なタイトルを付けます。
-5. Admonitionを使いすぎず、本当に重要な情報を強調するために使います。
+3. 内容に合った Admonition の種類を選びます。
+4. Admonition には、内容が分かる明確なタイトルを付けます。
+5. Admonition を使いすぎず、本当に重要な情報を強調するために使います。
