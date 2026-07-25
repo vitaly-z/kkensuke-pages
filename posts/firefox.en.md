@@ -16,7 +16,7 @@ https://www.mozilla.org/en-US/firefox/new/
 ## 1. Changing Settings
 You can open the preferences page with :btn[cmd] + :btn[,]. Initially, it's good to import data from the browser you're currently using. You can also adjust other settings to your preference on this page.
 
-![Settings Screenshot](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/e1d72bc2-3ec1-2a16-bbce-7a1917f1eaac.png)
+![Image](/images/firefox/settings.jpeg)
 
 
 
@@ -26,8 +26,8 @@ Below is a simple list of Firefox's useful features. Some of these are explained
 1. [Rich extensions (add-ons)](https://addons.mozilla.org/en-US/firefox/)
 
 2. Easily customizable toolbar. Right-click on the toolbar and select "Customize Toolbar" to see the following screen. You can add and remove icons using drag and drop.
-    ![Toolbar Customization](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/a9a7b421-b8ce-c5df-6ccf-66c7e65bcd22.png)
-    
+    ![Image](/images/firefox/toolbar.jpeg)
+
 3. Sidebar: Provides easy access to various information:
     - Bookmarks
     - Browsing history
@@ -35,25 +35,25 @@ Below is a simple list of Firefox's useful features. Some of these are explained
     - `Simple Tab Groups` (extension)
     You can group and organize tabs. Tabs are saved even when you close the window.
     - AI Chatbot: Check `AI chatbot` in the `Firefox Labs` section of the settings page. If you check `Show prompts on text select`, you can immediately send selected text to your specified language model on any site.
-![AI Chatbot](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/1cf9631d-ee94-7fa8-a753-b69aede5628b.png)
+    ![Image](/images/firefox/labs.jpeg)
 
 4. Multi-Account Containers
 You can log in to the same site with different accounts simultaneously. For example, in one tab, you can log in to a site with your work account, and in another tab, you can log in to the same site with your personal account.
 
-5. Screenshots: :btn[cmd] + :btn[shift] + :btn[S]
+1. Screenshots: :btn[cmd] + :btn[shift] + :btn[S]
 You can select the range of screenshots in four ways:
     - Select the range yourself
     - Automatically select part of the page where the cursor is
     - Select the entire visible range
     - Select the entire scrollable range
-![Screenshot Tool](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/90edc24f-23d0-6f96-520c-d8a829745611.png)
+    ![Image](/images/firefox/screenshot.jpeg)
 
-6. Reader View: :btn[opt] + :btn[cmd] + :btn[R]
+1. Reader View: :btn[opt] + :btn[cmd] + :btn[R]
 Removes unnecessary elements from web pages and improves readability.
 
-7. Device synchronization
+1. Device synchronization
 
-8. Customize the browser's appearance with `userChrome.css`.
+2. Customize the browser's appearance with `userChrome.css`.
 
 
 
@@ -71,7 +71,7 @@ https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
 :::
 
 Bitwarden is a free, convenient open-source password manager. To use this extension, you need to install the desktop app.
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/9983d16d-9b5b-8f03-7683-9c3831f45387.png "width=300px")
+![Image](/images/firefox/bitwarden.jpeg "width=300px")
 ::::
 
 ::::simple
@@ -167,7 +167,7 @@ https://addons.mozilla.org/en-US/firefox/addon/simple-tab-groups/
 
 Simple Tab Groups is possibly the most useful add-on. It allows you to group and organize tabs. You can quickly switch between groups, preventing you from getting lost among many tabs. Groups and their tabs are also retained when you close the browser.
 It's also compatible with `Multi-Account Containers`, and you can set which container to open tabs in for each group. It's convenient to register a shortcut to open this extension in the sidebar. See item 3-4 below for registration methods.
-![SCR-20240503-edyg.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/956c38a0-bf42-a3ab-3100-e4346319772c.png)
+![Image](/images/firefox/simple-tab-groups.jpeg)
 ::::
 
 ::::simple
@@ -176,7 +176,7 @@ https://addons.mozilla.org/en-US/firefox/addon/simple-translate/
 :::
 
 Simple Translate is a simple and lightweight translation tool. It translates selected text and displays it in a popup window. To translate to your preferred language, change the "target language" in the settings screen.
-![SCR-20230624-oicn.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/b69b195f-07bc-5d2d-a655-92ca875a0983.png)
+![Image](/images/firefox/simple-translate.jpeg)
 ::::
 
 ::::simple
@@ -201,7 +201,7 @@ https://addons.mozilla.org/en-US/firefox/addon/tabliss/
 :::
 
 Tabliss is a new tab extension with beautiful backgrounds and multiple widgets. `Unsplash` is recommended for backgrounds.
-![SCR-20230624-oilx.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/859d212e-b3ba-5c20-ec0c-3b573da2024f.png)
+![Image](/images/firefox/tabliss.jpeg)
 ::::
 
 ::::simple
@@ -226,7 +226,7 @@ https://www.zotero.org/download/connectors
 :::
 
 Zotero Connector automatically detects content in your web browser and allows you to add it to your Zotero library with one click. The [Zotero](https://www.zotero.org/) app itself is very helpful for literature management.
-![zotero-connector.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/fb3c63c1-6de7-2236-ddd8-7ea5f2189985.png#center)
+![Image](/images/firefox/zotero-connector.jpeg "width=300px")
 ::::
 
 ### 3-2. YouTube Related
@@ -236,7 +236,7 @@ https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
 :::
 
 Enhancer for YouTube adds many useful features to YouTube, including video playback speed control, cinema mode, screenshots, and more. You can fine-tune video speed in intervals of 0.05 from (0.01, 0.02, 0.05, 0.1, 0.2, 0.25, 0.5, 1) and go beyond 2x speed.
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/0d3eb5df-c088-e883-d43b-67e94801d644.png)
+![Image](/images/firefox/enhancer-for-youtube.jpeg)
 ::::
 
 ::::simple
@@ -339,7 +339,7 @@ https://addons.mozilla.org/en-US/firefox/addon/10-minutes-disposable-email/
 
 10 minute mail generates a temporary email address valid for only 10 minutes. It's useful for signing up for services you just want to try temporarily.
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/4e632eb5-dcb7-6cff-2d40-0e926b0b0535.png 'width=300px')
+![Image](/images/firefox/10-minute-mail.jpeg "width=300px")
 ::::
 
 ::::simple
@@ -373,7 +373,7 @@ https://addons.mozilla.org/en-US/firefox/addon/webrtc-leak-shield/
 :::
 
 WebRTC Leak Shield prevents WebRTC leaks.
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/5c8fad46-3714-d3d2-f967-c47a6a30a683.png 'width=300px')
+![Image](/images/firefox/webrtc-leak-shield.jpeg "width=300px")
 
 :::note
 WebRTC stands for Web Real-Time Communication and is a technology that allows direct voice and video communication between browsers over the internet without requiring external software or plugins. While convenient for video conferences and real-time communication, there are privacy concerns about IP address leakage. Disabling WebRTC in your browser can prevent IP leakage.
@@ -381,9 +381,9 @@ WebRTC stands for Web Real-Time Communication and is a technology that allows di
 ::::
 
 ### 3-4. Setting Add-on Shortcuts
-![SCR-20230624-lyil.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/434920cc-7118-bc9a-30b0-55931cc9f72d.png)
-![Untitled.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/d7613215-5a9b-b969-bbdf-c1fbce9329ea.png)
-![SCR-20230624-lyxa-2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/f75baf1b-151c-67ce-a244-bbb39ef4fd99.png)
+![Image](/images/firefox/shortcut1.jpeg)
+![Image](/images/firefox/shortcut2.jpeg)
+![Image](/images/firefox/shortcut3.jpeg)
 
 
 ## 4. about:config
@@ -400,7 +400,7 @@ The `about:config` items may change with version updates. Older sites may list i
     ```
     pdfjs.viewerCssTheme    2
     ```
-    
+
 - To enable pinch functionality, change the following setting to `true`
     ```
     browser.gesture.pinch.latched    true
@@ -410,12 +410,12 @@ The `about:config` items may change with version updates. Older sites may list i
     ```
     browser.tabs.loadBookmarksInTabs    true
     ```
-    
+
 - Enable spell checking in all text boxes
     ```
     layout.spellcheckDefault    2
     ```
-    
+
 - Keep the window open even when the last tab is closed
     ```
     browser.tabs.closeWindowWithLastTab    false
@@ -486,7 +486,7 @@ To disable WebRTC:
 
 When you pass the [Cloudflare Browser Check](https://www.cloudflare.com/ssl/encrypted-sni/#results), it will be displayed as follows:
 
-![Untitled.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/e8831a94-67c6-524f-2c8f-a95637dd9cbb.png)
+![Image](/images/firefox/test.jpeg)
 
 ## 6. Compact View Settings
 ### 6-1. Compact Toolbar
@@ -497,7 +497,7 @@ browser.compactmode.show    true
 
 Right-click on the toolbar and select "Customize Toolbar", then click "Density" in the bottom left of the image below and select "Compact".
 
-![screenshot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/c595966f-bed6-f2cb-0a3e-528d5ab60bf3.png)
+![Image](/images/firefox/toolbar.jpeg)
 
 ### 6-2. Customize `userChrome.css`
 You can customize the window display to your liking using `userChrome.css`.
@@ -517,7 +517,7 @@ You can customize the window display to your liking using `userChrome.css`.
     3. For Mac, place the file at the following path:
     `~/Library/Application\ Support/Firefox/Profiles/<****>.default-release/chrome/userChrome.css` (<****> is an 8-digit alphanumeric string)
     You can access this by typing about:support in the search bar and clicking "Show in Finder" in the red box area shown below:
-![screenshot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/21764530-dcd2-6d1d-adfa-40d04cbf0724.png)
+    ![Image](/images/firefox/userchrome.jpeg)
 
     4. Restart Firefox.
 

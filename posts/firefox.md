@@ -18,7 +18,7 @@ https://www.mozilla.org/ja/firefox/new/
 ## 1　設定を変更する
 :btn[cmd] + :btn[,] で環境設定ページを開くことができます。初めは、デフォルトで使っているブラウザからデータをインポートするのが良いでしょう。その他、このページで好みの設定に変更してください。
 
-![screenshot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/e1d72bc2-3ec1-2a16-bbce-7a1917f1eaac.png)
+![Image](/images/firefox/settings.jpeg)
 
 
 
@@ -28,7 +28,7 @@ https://www.mozilla.org/ja/firefox/new/
 1. [豊富な拡張機能（アドオン）](https://addons.mozilla.org/ja/firefox/)
 
 2. カスタマイズしやすいツールバー。ツールバー上で右クリックして「ツールバーをカスタマイズ」を選ぶと、次の画面が出てきます。ドラック&ドロップでアイコンを追加&削除できます。
-    ![screenshot-1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/a9a7b421-b8ce-c5df-6ccf-66c7e65bcd22.png)
+    ![Image](/images/firefox/toolbar.jpeg)
 
 3. サイドバー：以下の様々な情報へのアクセスが簡単になります。
     - ブックマーク
@@ -37,7 +37,7 @@ https://www.mozilla.org/ja/firefox/new/
     - `Simple Tab Groups`（拡張機能）
     タブをグループ化して整理できます。ウィンドウを閉じてもタブは保存されます。
     - AI Chatbot: 設定ページの `Firefox Labs` にて、`AI chatbot` にチェックをつけてください。`Show prompts on text select` をチェックすると、任意のサイトで選択した文字列を指定している言語モデルにすぐに投げることができます。
-![screenshot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/1cf9631d-ee94-7fa8-a753-b69aede5628b.png)
+    ![Image](/images/firefox/labs.jpeg)
 
 4. マルチアカウントコンテナ
 同じサイトに異なるアカウントで同時にログインできます。例えば、一つのタブでは仕事用のアカウントを用いてあるサイトにログインし、もう一つのタブでは、私的なアカウントで同一のサイトにログインできます。
@@ -48,7 +48,7 @@ https://www.mozilla.org/ja/firefox/new/
     - カーソルが乗っているページの一部を自動的に選択
     - 見えている範囲全体を選択
     - スクロールできる範囲全体を選択
-![SCR-20230625-muis.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/90edc24f-23d0-6f96-520c-d8a829745611.png)
+    ![Image](/images/firefox/screenshot.jpeg)
 
 6. Reader View: :btn[opt] + :btn[cmd] + :btn[R]
 Webページの無駄を取り除き、読みやすさを向上させます。
@@ -72,7 +72,7 @@ https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
 :::
 
 Bitwarden は、無料で便利なオープンソースのパスワードマネージャーです。この拡張機能を使用するには、デスクトップアプリをインストールする必要があります。
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/9983d16d-9b5b-8f03-7683-9c3831f45387.png "width=300px")
+![Image](/images/firefox/bitwarden.jpeg "width=300px")
 ::::
 
 ::::simple
@@ -139,7 +139,7 @@ Keepa.com - Amazon Price Tracker は、Amazon製品の価格履歴グラフを�
 https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
 :::
 
-Multi-Account Containers を使用すると、同じウェブサイトで複数のアカウントを同時に使用できます。後述のSimple Tab Groupsと互換性があります。(このアドオンを使わなくてもコンテナの最低限の機能は使えるかもしれません。）
+Multi-Account Containers を使用すると、同じウェブサイトで複数のアカウントを同時に使用できます。後述のSimple Tab Groupsと互換性があります。（このアドオンを使わなくてもコンテナの最低限の機能は使えるかもしれません。）
 ::::
 
 ::::simple
@@ -169,7 +169,7 @@ https://addons.mozilla.org/en-US/firefox/addon/simple-tab-groups/
 
 Simple Tab Groups はアドオンの中で最も便利なものだと思います。これにより、タブをグループ化して整理できます。グループ間を素早く切り替えることができ、たくさんのタブの中で迷子になることがありません。また、ブラウザを閉じてもグループと中のタブは保持されます。
 また `Multi-Account Containers` と互換性があり、それぞれのグループ内のタブをどのコンテナで開くか設定することもできます。この拡張機能をサイドバーで開くためのショートカットを登録すると便利です。登録方法は後述の項目 3-4 を参照してください。
-![SCR-20240503-edyg.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/956c38a0-bf42-a3ab-3100-e4346319772c.png)
+![Image](/images/firefox/simple-tab-groups.jpeg)
 ::::
 
 ::::simple
@@ -178,7 +178,7 @@ https://addons.mozilla.org/en-US/firefox/addon/simple-translate/
 :::
 
 Simple Translate は、シンプルで軽量な翻訳ツールです。選択したテキストをポップアップウィンドウ上で翻訳して表示します。日本語に翻訳する場合は、設定画面で「ターゲットの言語」を日本語に変更します。
-![SCR-20230624-oicn.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/b69b195f-07bc-5d2d-a655-92ca875a0983.png)
+![Image](/images/firefox/simple-translate.jpeg)
 ::::
 
 ::::simple
@@ -203,7 +203,7 @@ https://addons.mozilla.org/en-US/firefox/addon/tabliss/
 :::
 
 Tabliss は、美しい背景と複数のウィジェットを備えた新しいタブの拡張機能です。背景は `Unsplash` がおすすめです。
-![SCR-20230624-oilx.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/859d212e-b3ba-5c20-ec0c-3b573da2024f.png)
+![Image](/images/firefox/tabliss.jpeg)
 ::::
 
 ::::simple
@@ -228,7 +228,7 @@ https://www.zotero.org/download/connectors
 :::
 
 Zotero Connector は、ウェブブラウザー内のコンテンツを自動的に検出し、1 クリックで Zotero ライブラリに追加できます。[Zotero](https://www.zotero.org/) というアプリ自体は文献管理にとても役立ちます。
-![zotero-connector.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/fb3c63c1-6de7-2236-ddd8-7ea5f2189985.png#center)
+![Image](/images/firefox/zotero-connector.jpeg "width=300px")
 ::::
 
 ### 3-2　YouTube 関連
@@ -238,7 +238,7 @@ https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
 :::
 
 Enhancer for YouTube は、ビデオの再生速度制御、シネマモード、スクリーンショットなど、多くの便利な機能を YouTube に追加します。ビデオの速度を 0.05 から(0.01、0.02、0.05、0.1、0.2、0.25、0.5、1)の間隔で微調整でき、2 倍以上の速度にすることも可能です。
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/0d3eb5df-c088-e883-d43b-67e94801d644.png)
+![Image](/images/firefox/enhancer-for-youtube.jpeg)
 ::::
 
 ::::simple
@@ -340,7 +340,7 @@ https://addons.mozilla.org/en-US/firefox/addon/10-minutes-disposable-email/
 
 10 minute mail は、10 分間だけ有効な一時的なメールアドレスを生成します。一時的に試してみたいサービスのサインアップに便利です。
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/4e632eb5-dcb7-6cff-2d40-0e926b0b0535.png 'width=300px')
+![Image](/images/firefox/10-minute-mail.jpeg "width=300px")
 ::::
 
 ::::simple
@@ -374,7 +374,8 @@ https://addons.mozilla.org/en-US/firefox/addon/webrtc-leak-shield/
 :::
 
 WebRTC Leak Shieldは、WebRTCリークを防止します。
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/5c8fad46-3714-d3d2-f967-c47a6a30a683.png 'width=300px')
+![Image](/images/firefox/webrtc-leak-shield.jpeg "width=300px")
+
 
 :::note
 WebRTC は Web Real-Time Communication（Web リアルタイム通信）の略で、ブラウザ間で外部ソフトウェアやプラグインを必要とせずにインターネットを通じて音声やビデオ通信を直接行う技術です。ビデオ会議やリアルタイム通信には便利ですが、プライバシー上の問題として IP アドレスの漏洩も懸念されます。ブラウザで WebRTC を無効にすると、IP の漏洩を防ぐことができます。
@@ -383,10 +384,9 @@ WebRTC は Web Real-Time Communication（Web リアルタイム通信）の略�
 
 
 ### 3-4　アドオンショートカットの設定
-![SCR-20230624-lyil.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/434920cc-7118-bc9a-30b0-55931cc9f72d.png)
-![Untitled.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/d7613215-5a9b-b969-bbdf-c1fbce9329ea.png)
-![SCR-20230624-lyxa-2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/f75baf1b-151c-67ce-a244-bbb39ef4fd99.png)
-
+![Image](/images/firefox/shortcut1.jpeg)
+![Image](/images/firefox/shortcut2.jpeg)
+![Image](/images/firefox/shortcut3.jpeg)
 
 ## 4　about:config
 `about:config` ではさまざまな細かい設定を変更できます。
@@ -491,8 +491,7 @@ WebRTC を無効にする：
 
 [Cloudflare Browser Check](https://www.cloudflare.com/ssl/encrypted-sni/#results) をパスすると、以下のように表示されます。
 
-![Untitled.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/e8831a94-67c6-524f-2c8f-a95637dd9cbb.png)
-
+![Image](/images/firefox/test.jpeg)
 
 
 ## 6　コンパクトビューの設定
@@ -504,7 +503,7 @@ browser.compactmode.show    true
 
 ツールバー上で右クリックして「ツールバーをカスタマイズ」を選び、下の画像で左下の「Density」をクリックして「コンパクト」を選択します。
 
-![screenshot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/c595966f-bed6-f2cb-0a3e-528d5ab60bf3.png)
+![Image](/images/firefox/toolbar.jpeg)
 
 
 ### 6-2　`userChrome.css` をカスタマイズする
@@ -524,8 +523,8 @@ browser.compactmode.show    true
     2. 下の `/* compact view settings */` 以降のコードを `userChrome.css` に貼り付けます。
     3. Mac の場合、ファイルの場所が次のパスになるように配置します。
     `~/Library/Application\ Support/Firefox/Profiles/<****>.default-release/chrome/userChrome.css` (<****> は 8桁の英数字です)
-サーチバーに about:support と入力すると下の画面が現れ、赤枠の部分の  Show in Finder をクリックすると開くことができます。
-![screenshot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/21764530-dcd2-6d1d-adfa-40d04cbf0724.png)
+    サーチバーに about:support と入力すると下の画面が現れ、赤枠の部分の  Show in Finder をクリックすると開くことができます。
+    ![Image](/images/firefox/userchrome.jpeg)
 
     4. Firefox を再起動します。
 

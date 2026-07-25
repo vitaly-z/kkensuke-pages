@@ -12,14 +12,13 @@ Terminal のカレントディレクトリを Finder で開くには、`open　.
 
 ## 2 Finder から Terminal
 ここでは、Finder 上のディレクトリを Terminal で開くためのショートカットキーを登録します。まずシステム設定から[System settings > Keyboard > Keyboard Shotcuts > Services]を開きます。
-
-![Untitled.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/9e5188ae-4048-9423-35c2-f52ef1ccb5f0.png)
+![OpenTerminal1.jpeg](/images/finder-terminal/OpenTerminal1.jpeg)
 
 そして、以下の赤枠内にチェックマークをつけ、適当なショートカットキー（ここでは :btn[cmd] + :btn[shift] + :btn[E]）を登録します。
-![SCR-20230225-4ok.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/f5f80cbd-d13e-0efe-4df1-e4068f8a7789.png)
+![OpenTerminal2.jpeg](/images/finder-terminal/OpenTerminal2.jpeg)
 
 実際に Finder から Terminal を開くには、Finder 上でディレクトリを選択して先ほどのショートカットキーを使うか、右クリックから下の赤枠部分のどちらかを選択して開きます。
-![SCR-20230225-4sf.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/a0b03cf8-9c42-8f95-b7e6-ed91af3f04c4.png "width=500px")
+![OpenTerminal3.jpeg](/images/finder-terminal/OpenTerminal3.jpeg)
 
 
 
@@ -35,7 +34,7 @@ cdf() {
 ```
 
 例えば下の画像では、初めは Terminal 上で `Desktop` にいましたが、`cdf` を実行することで、Finder 上で開いていた `Google` フォルダに移動していることがわかります。
-![screenshot 1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/7ca6f1ac-dac7-0e32-1506-b0037e594595.png)
+![cdf.jpeg](/images/finder-terminal/cdf.jpeg)
 
 
 
@@ -43,19 +42,18 @@ cdf() {
 Finder 上のフォルダを VScode で開きたいことは常々あると思います。そんな時に選択したフォルダをショートカットキーで開けたら便利ですよね。ここでは、Automator.app の Quick Action を使って簡単にそのショートカットキーを作ります。
 
 まず、Automator.app を開き Quick Action を選択します。
-![screenshot 1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/508228c3-9048-07dc-91bb-61d0f8559167.png)
+![OpenVScode1.jpeg](/images/finder-terminal/OpenVScode1.jpeg)
 
 次に、赤枠の部分を「files and folders」in「Finder」に変更します。
-![screenshot 2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/e33ab371-bc0d-59dc-22a1-35eaabde3578.png)
+![OpenVScode2.jpeg](/images/finder-terminal/OpenVScode2.jpeg)
 
 次に、左の検索ボックスで「open」を入力すると「Open Finder Items」が候補に出てくるので、それをドラッグ&ドロップで右に持ってきます。そして、その中では、VScode を選択します。
-![screenshot 3.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/8aacd3b1-73db-6fc6-3490-6a086289f803.png)
+![OpenVScode3.jpeg](/images/finder-terminal/OpenVScode3.jpeg)
 
 以上の作業が完了したら、「Open in VScode」などと名前をつけて保存してください。
 
 最後に、この Quick Action にショートカットキーを割り当てます。
 システム設定を開き、[System Settings > Keyboard > Keyboard Shotcuts > Services > Files and Folders] と進んでいくと次の画面が現れ、先ほど作成した「Open in VScode」が見つかると思います。それに適当なショートカットキー（ここでは :btn[cmd] + :btn[shift] + :btn[W]）を割り当てます。
-
-![screenshot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/414636/0ea10088-9c7c-8bd9-69ba-b3a969f1dc41.png)
+![OpenVScode4.jpeg](/images/finder-terminal/OpenVScode4.jpeg)
 
 作業が完了したら、Finder であるフォルダを選択して、ショートカットキーを押してみてください。一発で VScode が開きましたね。
