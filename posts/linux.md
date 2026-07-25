@@ -8,7 +8,7 @@ tags: [CLI]
 
 コマンドラインは、コンピューターを操作するためのテキストインターフェースです。フォルダやメニューをクリックする代わりにコマンドを入力し、ディレクトリ間の移動、ファイルの確認や変更、プログラム同士の接続、プロセスの管理、繰り返し作業の自動化などを行います。
 
-macOSでは `Terminal.app` を開きます。多くのLinuxディストリビューションにもターミナルアプリケーションが用意されています。macOSのデフォルトの対話シェルはZshで、LinuxではBashがよく使われます。このガイドの基本コマンドは、Bash固有と明記した節を除き、どちらでも使用できます。
+macOS では `Terminal.app` を開きます。多くの Linux ディストリビューションにもターミナルアプリケーションが用意されています。macOS のデフォルトの対話シェルはZsh で、Linux では Bash がよく使われます。このガイドの基本コマンドは、Bash 固有と明記した節を除き、どちらでも使用できます。
 
 :::warning
 `rm`、`chmod`、`chown` などのコマンドは、データを削除したりアクセス不能にしたりする可能性があります。破壊的なコマンドを実行する前に、`pwd` で現在のディレクトリを確認し、`ls` で対象を調べ、`echo` でワイルドカードの展開結果を確認してください。
@@ -45,7 +45,7 @@ macOSでは `Terminal.app` を開きます。多くのLinuxディストリビュ
 | `Ctrl + Y` | 最後に切り取ったテキストを貼り付ける |
 | `Ctrl + _` | 直前の編集を元に戻す |
 
-macOSのターミナル設定によっては、`Option + B` や `Option + F` が `Alt` として設定されていないことがあります。その場合は、`Esc` を押してから `B` または `F` を押します。
+macOS のターミナル設定によっては、`Option + B` や `Option + F` が `Alt` として設定されていないことがあります。その場合は、`Esc` を押してから `B` または `F` を押します。
 
 ### コマンド履歴
 
@@ -71,7 +71,7 @@ macOSのターミナル設定によっては、`Option + B` や `Option + F` が
 **絶対パス**は `/` から始まります。**相対パス**は現在のディレクトリを基準にします。
 
 ```bash
-/Users/username/Documents/report.txt   # macOSの絶対パス
+/Users/username/Documents/report.txt   # macOS の絶対パス
 Documents/report.txt                   # ホームディレクトリからの相対パス
 ../report.txt                          # 親ディレクトリにあるファイル
 ```
@@ -96,9 +96,9 @@ pwd
 ### `cd`：ディレクトリを移動する
 
 ```bash
-cd ~/Documents       # ホームディレクトリ内のDocumentsへ移動
-cd ..                # 1階層上へ移動
-cd ../..             # 2階層上へ移動
+cd ~/Documents       # ホームディレクトリ内の Documents へ移動
+cd ..                # 1 階層上へ移動
+cd ../..             # 2 階層上へ移動
 cd -                 # 直前にいたディレクトリへ戻る
 cd                   # ホームディレクトリへ移動
 ```
@@ -121,13 +121,13 @@ ls -AhlS             # ほぼすべてを詳細・読みやすいサイズ・サ
 `tree` コマンドは、先にインストールが必要な場合があります。
 
 ```bash
-brew install tree                 # Homebrewを使用するmacOS
-sudo apt install tree             # DebianまたはUbuntu
+brew install tree                 # Homebrew を使用する macOS
+sudo apt install tree             # Debian または Ubuntu
 ```
 
 ```bash
 tree                              # 階層全体を表示
-tree -L 2                         # 2階層まで表示
+tree -L 2                         # 2 階層まで表示
 tree -d                           # ディレクトリだけを表示
 tree -a                           # 隠しファイルも表示
 tree -I 'node_modules|*.pyc'      # 一致する名前を除外
@@ -153,7 +153,7 @@ project/
 ### `mkdir`：ディレクトリを作成する
 
 ```bash
-mkdir project                     # ディレクトリを1つ作成
+mkdir project                     # ディレクトリを 1 つ作成
 mkdir dir1 dir2                   # 複数のディレクトリを作成
 mkdir -p project/src/components   # 存在しない親ディレクトリも作成
 ```
@@ -163,7 +163,7 @@ mkdir -p project/src/components   # 存在しない親ディレクトリも作�
 ```bash
 touch file.txt                    # 存在しなければ空のファイルを作成
 touch existing.txt                # アクセス時刻と更新時刻を更新
-touch file{1..3}.txt              # file1.txt、file2.txt、file3.txtを作成
+touch file{1..3}.txt              # file1.txt、file2.txt、file3.txt を作成
 ```
 
 ### `rmdir`：空のディレクトリを削除する
@@ -183,10 +183,10 @@ rmdir -p dir/subdir/leaf          # 空になった親ディレクトリも削�
 ```bash
 cat file.txt                      # ファイル全体を表示
 cat file1.txt file2.txt           # 複数のファイルを順番に表示
-less largefile.txt                # 1画面ずつ表示。qで終了
-head file.txt                     # 先頭10行を表示
-head -n 5 file.txt                # 先頭5行を表示
-tail file.txt                     # 末尾10行を表示
+less largefile.txt                # 1 画面ずつ表示。q で終了
+head file.txt                     # 先頭 10 行を表示
+head -n 5 file.txt                # 先頭 5 行を表示
+tail file.txt                     # 末尾 10 行を表示
 tail -f application.log           # 追加される行をリアルタイムで表示
 ```
 
@@ -211,8 +211,8 @@ wc -c file.txt                    # バイト数のみ
 ```bash
 du -h file.txt                    # 読みやすい単位でファイルサイズを表示
 du -sh directory/                 # ディレクトリの合計サイズ
-du -h -d 1 .                      # macOSで1階層下の各項目のサイズを表示
-du -h --max-depth=1 .             # GNU/Linuxでの同等の書き方
+du -h -d 1 .                      # macOS で 1 階層下の各項目のサイズを表示
+du -h --max-depth=1 .             # GNU/Linux での同等の書き方
 ```
 
 
@@ -240,13 +240,13 @@ cp -R source-dir destination-dir  # ディレクトリを再帰的にコピー
 mv old.txt new.txt                # ファイル名を変更
 mv -i old.txt new.txt             # 上書き前に確認
 mv file.txt directory/            # ファイルをディレクトリへ移動
-mv dir1 dir2                      # dir1の名前を変更、または既存のdir2内へ移動
+mv dir1 dir2                      # dir1 の名前を変更、または既存の dir2 内へ移動
 ```
 
 ### `rm`：ファイルや空でないディレクトリを削除する
 
 ```bash
-rm file.txt                       # ファイルを1つ削除
+rm file.txt                       # ファイルを 1 つ削除
 rm -i file.txt                    # 削除前に確認
 rm -v file.txt                    # 削除した名前を表示
 rm -r directory/                  # ディレクトリを再帰的に削除
@@ -264,7 +264,7 @@ rm -rf directory/                 # 確認なしで強制的に再帰削除
 ### `echo` と `printf`
 
 ```bash
-echo "Hello, world"               # 1行表示
+echo "Hello, world"               # 1 行表示
 echo "$PATH"                      # 環境変数を表示
 printf '%s\n' "Hello, world"      # 明示した書式で表示
 ```
@@ -273,7 +273,7 @@ printf '%s\n' "Hello, world"      # 明示した書式で表示
 
 ### 標準ストリーム
 
-各コマンドは3つの標準ストリームを利用できます。
+各コマンドは 3 つの標準ストリームを利用できます。
 
 | ストリーム | 番号 | デフォルトの接続先 |
 | --- | ---: | --- |
@@ -289,7 +289,7 @@ command >> file                   # 標準出力をファイル末尾へ追記
 command < file                    # ファイルから標準入力を読み込む
 command 2> errors.log             # 標準エラー出力をファイルへ書き込む
 command > output.log 2>&1         # 標準出力と標準エラー出力を同じファイルへ書き込む
-command &> output.log             # BashとZshで使える上の行の短縮形
+command &> output.log             # Bash と Zsh で使える上の行の短縮形
 command 2>/dev/null               # 標準エラー出力を破棄
 ```
 
@@ -306,13 +306,13 @@ cat notes.txt
 パイプ `|` は、左側のコマンドの標準出力を、右側のコマンドの標準入力へ渡します。
 
 ```bash
-history | tail -20                # 直近20件の履歴
+history | tail -20                # 直近 20 件の履歴
 grep "ERROR" application.log | wc -l
 ps aux | grep '[p]ython'
 du -h ./* | sort -h | tail -10
 ```
 
-パイプラインの各段階には、データの抽出、変換、並べ替え、集計、保存など、1つの役割を持たせます。
+パイプラインの各段階には、データの抽出、変換、並べ替え、集計、保存など、1 つの役割を持たせます。
 
 ### `tee`：表示と保存を同時に行う
 
@@ -332,7 +332,7 @@ command | tee -a history.log      # 置換せず追記
 `grep` は正規表現を使用し、一致する行を抽出します。
 
 ```bash
-grep 'word' file.txt              # wordを含む行
+grep 'word' file.txt              # word を含む行
 grep -i 'word' file.txt           # 大文字と小文字を区別しない
 grep -n 'word' file.txt           # 行番号を付ける
 grep -w 'word' file.txt           # 単語全体に一致
@@ -365,9 +365,9 @@ grep -E '[0-9]+' file.txt         # 拡張正規表現を使用
 ```bash
 sed 's/old/new/' file.txt          # 各行の最初の一致を置換
 sed 's/old/new/g' file.txt         # すべての一致を置換
-sed '2d' file.txt                  # 出力から2行目を削除
-sed -i '' 's/old/new/g' file.txt   # macOSでファイルを直接編集
-sed -i 's/old/new/g' file.txt      # LinuxのGNU sedでファイルを直接編集
+sed '2d' file.txt                  # 出力から 2 行目を削除
+sed -i '' 's/old/new/g' file.txt   # macOS でファイルを直接編集
+sed -i 's/old/new/g' file.txt      # Linux の GNU sed でファイルを直接編集
 ```
 
 `-i` を付けなければ、`sed` は変換後のテキストを表示するだけで、元のファイルは変更しません。
@@ -378,7 +378,7 @@ sed -i 's/old/new/g' file.txt      # LinuxのGNU sedでファイルを直接編�
 awk '{print $1}' file.txt          # 空白区切りの最初のフィールドを表示
 awk '{print $NF}' file.txt         # 最後のフィールドを表示
 awk '/pattern/ {print $0}' file.txt
-awk -F, '{print $2}' data.csv      # カンマを区切り文字として2列目を表示
+awk -F, '{print $2}' data.csv      # カンマを区切り文字として 2 列目を表示
 ```
 
 ### `sort`、`uniq`、`cut`、`tr`
@@ -387,7 +387,7 @@ awk -F, '{print $2}' data.csv      # カンマを区切り文字として2列目
 sort names.txt                     # 行を並べ替える
 sort names.txt | uniq              # 隣接する重複行を削除
 sort names.txt | uniq -c           # 各行の出現回数を数える
-cut -d, -f2 data.csv               # カンマ区切りの2列目を表示
+cut -d, -f2 data.csv               # カンマ区切りの 2 列目を表示
 tr '[:lower:]' '[:upper:]' < file.txt
 ```
 
@@ -399,20 +399,20 @@ tr '[:lower:]' '[:upper:]' < file.txt
 基本形は `find PATH CONDITIONS ACTIONS` です。
 
 ```bash
-find . -name '*.txt'               # 名前が.txtで終わるもの
+find . -name '*.txt'               # 名前が .txt で終わるもの
 find . -iname '*.TXT'              # 大文字と小文字を区別せず名前を検索
 find . -type f                     # 通常ファイルのみ
 find . -type d                     # ディレクトリのみ
 find . -empty                      # 空のファイルまたはディレクトリ
 
-find . -mtime -7                   # 過去7日以内に更新
-find . -mmin -60                   # 過去60分以内に更新
-find . -atime +30                  # 30日より前にアクセス
+find . -mtime -7                   # 過去 7 日以内に更新
+find . -mmin -60                   # 過去 60 分以内に更新
+find . -atime +30                  # 30 日より前にアクセス
 
-find . -size +10M                  # 10MiBより大きい
-find . -size +30k -size -1M        # 30KiBより大きく1MiBより小さい
+find . -size +10M                  # 10MiB より大きい
+find . -size +30k -size -1M        # 30KiB より大きく 1MiB より小さい
 
-find . -name '*.log' -mtime +30    # 暗黙のANDで条件を組み合わせる
+find . -name '*.log' -mtime +30    # 暗黙の AND で条件を組み合わせる
 find . \( -name '*.py' -o -name '*.sh' \) -type f
 find . -not -path './node_modules/*' -type f
 ```
@@ -427,7 +427,7 @@ find . -name '*.tmp' -exec rm -i {} +
 find . -name '*.tmp' -delete
 ```
 
-`{}` は見つかったパスに置き換えられます。末尾の `+` は、可能な限り多くのパスをまとめて1回のコマンドに渡します。`\;` を使うと、パスごとに1回ずつコマンドを実行します。
+`{}` は見つかったパスに置き換えられます。末尾の `+` は、可能な限り多くのパスをまとめて1回のコマンドに渡します。`\;` を使うと、パスごとに 1 回ずつコマンドを実行します。
 
 :::warning
 `-delete` を追加する前に、同じ `find` 式を `-delete` なしで実行して対象を確認してください。`-maxdepth` などで制限しない限り、`find` はサブディレクトリにも入ります。
@@ -435,7 +435,7 @@ find . -name '*.tmp' -delete
 
 ### `find` と `xargs`
 
-ファイル名に空白、引用符、改行が含まれていても正しく処理できるように、null文字を区切り文字として使います。
+ファイル名に空白、引用符、改行が含まれていても正しく処理できるように、null 文字を区切り文字として使います。
 
 ```bash
 find . -type f -name '*.txt' -print0 | xargs -0 grep -n 'word'
@@ -449,9 +449,9 @@ find . -type f -name '*.tmp' -print0 | xargs -0 rm -i
 ```bash
 command -v python                  # 移植性の高い方法でコマンドの解決先を表示
 type python                        # alias、関数、ファイルなどの種類を説明
-which python                       # 一般的だがtypeより情報が少ない
-whereis python                     # 多くのLinux環境でバイナリ、ソース、manの場所を表示
-locate filename                    # locateがあればデータベースから高速検索
+which python                       # 一般的だが type より情報が少ない
+whereis python                     # 多くの Linux 環境でバイナリ、ソース、manの場所を表示
+locate filename                    # locate があればデータベースから高速検索
 ```
 
 
@@ -463,18 +463,18 @@ locate filename                    # locateがあればデータベースから�
 
 | パターン | 意味 |
 | --- | --- |
-| `*` | 0文字以上の任意の文字列 |
-| `?` | 任意の1文字 |
-| `[abc]` | 集合内のいずれか1文字 |
-| `[a-z]` | 範囲内のいずれか1文字 |
-| `[!abc]` | 集合に含まれない1文字 |
+| `*` | 0 文字以上の任意の文字列 |
+| `?` | 任意の 1 文字 |
+| `[abc]` | 集合内のいずれか 1 文字 |
+| `[a-z]` | 範囲内のいずれか 1 文字 |
+| `[!abc]` | 集合に含まれない 1 文字 |
 
 ```bash
-ls *.txt                           # すべての.txtファイル
-ls file?.txt                       # file1.txtやfileA.txtなど
-ls [abc]*.txt                      # a、b、cのいずれかで始まる名前
-ls [0-9][0-9].txt                  # 2桁の数字を持つ名前
-mv *.{py,sh} scripts/              # Pythonファイルとシェルファイル
+ls *.txt                           # すべての .txt ファイル
+ls file?.txt                       # file1.txt や fileA.txt など
+ls [abc]*.txt                      # a、b、c のいずれかで始まる名前
+ls [0-9][0-9].txt                  # 2 桁の数字を持つ名前
+mv *.{py,sh} scripts/              # Python ファイルとシェルファイル
 ```
 
 実際の操作をする前に、グロブの展開結果を確認できます。
@@ -498,10 +498,10 @@ shopt -s extglob
 
 | パターン | 意味 |
 | --- | --- |
-| `*(pattern)` | 0回以上の繰り返し |
-| `+(pattern)` | 1回以上の繰り返し |
-| `?(pattern)` | 0回または1回 |
-| `@(pattern)` | ちょうど1回 |
+| `*(pattern)` | 0 回以上の繰り返し |
+| `+(pattern)` | 1 回以上の繰り返し |
+| `?(pattern)` | 0 回または 1 回 |
+| `@(pattern)` | ちょうど 1 回 |
 | `!(pattern)` | パターン以外 |
 
 ```bash
@@ -518,7 +518,7 @@ ls file+([0-9])
 # file1 file2 file3 file11 file123
 ```
 
-これらの例はBash固有です。Zshには独自の拡張グロブ構文とオプションがあります。
+これらの例は Bash 固有です。Zsh には独自の拡張グロブ構文とオプションがあります。
 
 ### ブレース展開で文字列を生成する
 
@@ -526,13 +526,13 @@ ls file+([0-9])
 
 ```bash
 echo {1,2,3}                       # 1 2 3
-echo file{1..5}.txt                # file1.txtからfile5.txt
-echo {a..z}                        # aからz
+echo file{1..5}.txt                # file1.txt から file5.txt
+echo {a..z}                        # a から z
 echo {A,B}{1,2}                    # A1 A2 B1 B2
 
 mkdir -p project/{src,tests,docs}
 touch file{1..10}.txt
-cp file.txt{,.backup}              # cp file.txt file.txt.backupに展開
+cp file.txt{,.backup}              # cp file.txt file.txt.backup に展開
 mv /path/{foo,bar,baz}.txt dir/
 ```
 
@@ -542,10 +542,10 @@ mv /path/{foo,bar,baz}.txt dir/
 ### コマンドリスト
 
 ```bash
-command1 ; command2                # command1の結果にかかわらずcommand2を実行
-command1 && command2               # command1が成功した場合だけcommand2を実行
-command1 || command2               # command1が失敗した場合だけcommand2を実行
-command1 & command2                # command1をバックグラウンドで開始し、command2を実行
+command1 ; command2                # command1 の結果にかかわらずcommand2 を実行
+command1 && command2               # command1 が成功した場合だけcommand2 を実行
+command1 || command2               # command1 が失敗した場合だけcommand2 を実行
+command1 & command2                # command1 をバックグラウンドで開始し、command2 を実行
 ```
 
 実用例：
@@ -583,8 +583,8 @@ echo "${HOME}/Documents"
 波括弧は、変数名とその直後の文字列を区切ります。次の違いが重要です。
 
 ```bash
-$(date)                            # dateコマンドの出力
-${HOME}                            # HOME変数の値
+$(date)                            # date コマンドの出力
+${HOME}                            # HOME 変数の値
 ```
 
 ### `xargs`：入力からコマンドを組み立てる
@@ -595,7 +595,7 @@ printf '%s\n' file1 file2 file3 | xargs -n 1 echo "Processing:"
 printf '%s\0' *.txt | xargs -0 -I {} cp {} backup/
 ```
 
-ファイル名を扱う場合は、null区切りの入力と `-0` を使用します。
+ファイル名を扱う場合は、null 区切りの入力と `-0` を使用します。
 
 
 ## 環境変数、alias、履歴
@@ -607,14 +607,14 @@ echo "$HOME"                       # ホームディレクトリ
 echo "$PATH"                       # 実行可能ファイルを検索するディレクトリ
 echo "$USER"                       # 現在のユーザー名
 
-export PROJECT_ROOT="$HOME/project" # 変数を設定してexport
+export PROJECT_ROOT="$HOME/project" # 変数を設定して export
 ```
 
-プロンプトで行った変更は、通常、現在のシェルセッションでのみ有効です。永続化する設定は、Zshなら `~/.zshrc`、Bashなら `~/.bashrc` に追加し、新しいシェルを開始するか設定ファイルを再読み込みします。
+プロンプトで行った変更は、通常、現在のシェルセッションでのみ有効です。永続化する設定は、Zsh なら `~/.zshrc`、Bashなら `~/.bashrc` に追加し、新しいシェルを開始するか設定ファイルを再読み込みします。
 
 ```bash
-source ~/.zshrc                    # Zshの設定を再読み込み
-source ~/.bashrc                   # Bashの設定を再読み込み
+source ~/.zshrc                    # Zsh の設定を再読み込み
+source ~/.bashrc                   # Bash の設定を再読み込み
 ```
 
 ### aliasと関数
@@ -625,7 +625,7 @@ alias ..='cd ..'
 unalias ll
 ```
 
-単純なコマンドの置き換えにはaliasが適しています。引数や複数のコマンドが必要な場合は関数を使います。
+単純なコマンドの置き換えには alias が適しています。引数や複数のコマンドが必要な場合は関数を使います。
 
 ```bash
 mkcd() {
@@ -641,7 +641,7 @@ mkcd new-project
 history                            # 履歴を表示
 history 20                         # 多くのシェルで最近の履歴を表示
 !!                                 # 直前のコマンドを再実行
-!123                               # 履歴番号123を実行
+!123                               # 履歴番号 123 を実行
 !$                                 # 直前のコマンドの最後の引数
 ```
 
@@ -659,7 +659,7 @@ ls -l script.sh
 # -rwxr-xr--  1 user  group  1234 Aug  4 15:18 script.sh
 ```
 
-最初の1文字はファイルの種類です。`-` は通常ファイル、`d` はディレクトリ、`l` はシンボリックリンクを示します。続く9文字は、3つの権限グループです。
+最初の 1 文字はファイルの種類です。`-` は通常ファイル、`d` はディレクトリ、`l` はシンボリックリンクを示します。続く 9 文字は、3 つの権限グループです。
 
 ```text
 rwx r-x r--
@@ -705,7 +705,7 @@ chmod u=rwx,g=rx,o=r file.txt     # 各区分の権限を明示的に設定
 
 ### `chmod` による数値形式の権限指定
 
-各桁は、読み取りの `4`、書き込みの `2`、実行の `1` の合計です。3桁は、所有者、グループ、その他のユーザーの順に対応します。
+各桁は、読み取りの `4`、書き込みの `2`、実行の `1` の合計です。3 桁は、所有者、グループ、その他のユーザーの順に対応します。
 
 | モード | 記号形式 | 一般的な用途 |
 | --- | --- | --- |
@@ -766,7 +766,7 @@ ln -s ~/Documents/notes.txt .     # 現在のディレクトリにリンクを�
 - 相対リンクはディレクトリツリー内で移植しやすく、絶対リンクは現在の作業ディレクトリに依存しません。
 
 :::note
-macOSのFinderエイリアスとシンボリックリンクは別のものです。コマンドラインツールはシンボリックリンクを直接扱えますが、FinderエイリアスはmacOS固有のメタデータを使用します。
+macOS の Finder エイリアスとシンボリックリンクは別のものです。コマンドラインツールはシンボリックリンクを直接扱えますが、Finder エイリアスは macOS 固有のメタデータを使用します。
 :::
 
 ### ハードリンク
@@ -775,7 +775,7 @@ macOSのFinderエイリアスとシンボリックリンクは別のものです
 ln original.txt hardlink.txt
 ```
 
-ハードリンクされた複数のファイル名は、同じ実体データを参照します。1つの名前を削除しても、ほかのハードリンクが残っている間はデータが削除されません。通常、ハードリンクはファイルシステムをまたげず、ディレクトリにも作成できません。
+ハードリンクされた複数のファイル名は、同じ実体データを参照します。1 つの名前を削除しても、ほかのハードリンクが残っている間はデータが削除されません。通常、ハードリンクはファイルシステムをまたげず、ディレクトリにも作成できません。
 
 
 ## プロセスとジョブの管理
@@ -784,9 +784,9 @@ ln original.txt hardlink.txt
 
 ```bash
 ps                                 # このターミナルに関連するプロセス
-ps aux                             # BSD形式ですべてのプロセスを表示
-ps aux | grep '[p]ython'           # grep自身を一致させずにプロセスを検索
-pgrep -fl python                   # プロセスIDとコマンドラインを検索
+ps aux                             # BSD 形式ですべてのプロセスを表示
+ps aux | grep '[p]ython'           # grep 自身を一致させずにプロセスを検索
+pgrep -fl python                   # プロセス ID とコマンドラインを検索
 top                                # 対話的なシステムプロセス表示
 htop                               # インストールされている場合に使える代替表示
 ```
@@ -796,8 +796,8 @@ htop                               # インストールされている場合に�
 ```bash
 long_running_command &             # バックグラウンドで開始
 jobs                               # このシェルに属するジョブを一覧表示
-fg %1                              # ジョブ1をフォアグラウンドへ移動
-bg %1                              # 一時停止中のジョブ1をバックグラウンドで再開
+fg %1                              # ジョブ 1 をフォアグラウンドへ移動
+bg %1                              # 一時停止中のジョブ 1 をバックグラウンドで再開
 ```
 
 `Ctrl + Z` でフォアグラウンドプロセスを一時停止し、`bg` でバックグラウンド実行を再開するか、`fg` でフォアグラウンドへ戻します。
@@ -808,13 +808,13 @@ bg %1                              # 一時停止中のジョブ1をバックグ
 kill PID                           # 正常終了を要求
 kill -TERM PID                     # 同じシグナルを明示的に指定
 killall process_name               # 名前でプロセスへシグナルを送る
-kill -9 PID                        # SIGKILLで強制終了
+kill -9 PID                        # SIGKILL で強制終了
 ```
 
 `kill -9` は通常の終了要求で停止しない場合に限って使用します。プロセスがファイルやほかのリソースを後処理する機会が失われます。
 
 
-## Bashスクリプトの作成
+## Bash スクリプトの作成
 
 シェルスクリプトは一連のコマンドをテキストファイルに保存し、同じ処理を確実に繰り返せるようにします。
 
@@ -840,7 +840,7 @@ chmod u+x hello.sh
 ./hello.sh Kensei
 ```
 
-最初の行は**shebang**で、使用するインタープリターを選択します。`set -euo pipefail` の各オプションは、Bashスクリプトでよく使われる防御的な初期設定です。
+最初の行は **shebang** で、使用するインタープリターを選択します。`set -euo pipefail` の各オプションは、Bash スクリプトでよく使われる防御的な初期設定です。
 
 - `-e` は、処理されていないコマンドの失敗時に終了します。
 - `-u` は、未設定変数の参照をエラーにします。
@@ -854,13 +854,13 @@ chmod u+x hello.sh
 | --- | --- |
 | `$0` | スクリプト名または関数名 |
 | `$1` から `$9` | 個々の位置引数 |
-| `${10}` 以降 | 波括弧が必要な10番目以降の位置引数 |
+| `${10}` 以降 | 波括弧が必要な 10 番目以降の位置引数 |
 | `"$@"` | すべての引数を個別の文字列として保持 |
-| `"$*"` | すべての引数を1つの文字列として結合 |
+| `"$*"` | すべての引数を 1 つの文字列として結合 |
 | `$#` | 位置引数の数 |
-| `$$` | 現在のシェルのプロセスID |
+| `$$` | 現在のシェルのプロセス ID |
 | `$?` | 直前のコマンドの終了ステータス |
-| `$!` | 最後にバックグラウンド実行したコマンドのプロセスID |
+| `$!` | 最後にバックグラウンド実行したコマンドのプロセス ID |
 
 引数を別のコマンドへ渡す場合は `"$@"` を使用します。
 
@@ -872,11 +872,11 @@ backup() {
 backup "first file.txt" second.txt
 ```
 
-`"$@"` を引用符で囲むことで、`"first file.txt"` が1つの引数として保持されます。
+`"$@"` を引用符で囲むことで、`"first file.txt"` が 1 つの引数として保持されます。
 
 ### 条件分岐
 
-BashとZshでは、柔軟な `[[ ... ]]` 条件式を使用できます。
+Bash と Zsh では、柔軟な `[[ ... ]]` 条件式を使用できます。
 
 ```bash
 file=$1
@@ -903,7 +903,7 @@ fi
 | `-z string` | 文字列が空である |
 | `string1 == string2` | `[[ ... ]]` 内で文字列が等しい |
 
-古い `[ ... ]` 形式はPOSIXで規定されており、`/bin/sh` への移植性が高い一方、引用符や演算子の規則がより厳格です。BashまたはZshを明示的に選択するスクリプトでは `[[ ... ]]` を使い、移植可能な `sh` スクリプトでは `[ ... ]` を使います。
+古い `[ ... ]` 形式は POSIX で規定されており、`/bin/sh` への移植性が高い一方、引用符や演算子の規則がより厳格です。Bash または Zsh を明示的に選択するスクリプトでは `[[ ... ]]` を使い、移植可能な `sh` スクリプトでは `[ ... ]` を使います。
 
 ### 関数
 
@@ -917,7 +917,7 @@ find_large_files() {
 find_large_files '*.pdf' 20
 ```
 
-関数は現在のシェル環境を共有するため、呼び出し元のシェルのディレクトリや変数を変更できます。1つの引数として保持したい展開は、必ず引用符で囲みます。
+関数は現在のシェル環境を共有するため、呼び出し元のシェルのディレクトリや変数を変更できます。1 つの引数として保持したい展開は、必ず引用符で囲みます。
 
 
 ## ヘルプと実用上の習慣
@@ -926,13 +926,13 @@ find_large_files '*.pdf' 20
 
 ```bash
 man command                        # 詳細なマニュアルページ
-command --help                     # GNU形式でよく使われる簡易ヘルプ
-help command                       # Bashの組み込みコマンドのヘルプ
+command --help                     # GNU 形式でよく使われる簡易ヘルプ
+help command                       # Bash の組み込みコマンドのヘルプ
 type command                       # alias、関数、組み込み、実行ファイルを判定
 command -v command                 # コマンドの解決先を表示
 ```
 
-オプションの構文や動作は、macOSのBSD系ツールとGNU/Linuxのツールで異なる場合があります。コマンドを実行するシステム上のマニュアルを確認してください。
+オプションの構文や動作は、macOS の BSD 系ツールと GNU/Linux のツールで異なる場合があります。コマンドを実行するシステム上のマニュアルを確認してください。
 
 ### 安全に作業する
 
@@ -944,7 +944,7 @@ cp important.txt{,.backup}         # 簡易バックアップを作成
 rm -i file.txt                     # 確認を要求
 ```
 
-`alias rm='rm -i'` のようなaliasは、対話操作の安全策として役立ちます。ただし、スクリプトや別の環境ではaliasが読み込まれない場合があります。これだけを安全対策にしないでください。
+`alias rm='rm -i'` のような alias は、対話操作の安全策として役立ちます。ただし、スクリプトや別の環境では alias が読み込まれない場合があります。これだけを安全対策にしないでください。
 
 ### 効率よく作業する
 
@@ -954,7 +954,7 @@ pushd /path/to/project             # 現在地を保存して移動
 popd                               # 保存したディレクトリへ戻る
 nano file.txt                      # 初心者向けのターミナルエディタ
 vim file.txt                       # モーダル操作のターミナルエディタ
-open -e file.txt                   # macOSのTextEditで開く
+open -e file.txt                   # macOS の TextEdit で開く
 ```
 
 

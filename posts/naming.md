@@ -27,8 +27,8 @@ tags: [Code]
 
 
 
-## 2 Pythonの命名規則
-Pythonの命名規則は、Pythonコードの公式スタイルガイドである[PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)に概説されています。
+## 2 Python の命名規則
+Pythonの命名規則は、Pythonコードの公式スタイルガイドである [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/) に概説されています。
 
 ### 2-1 パッケージ名
 - **規則**：すべて小文字の名前、できれば短い単語一つ
@@ -68,10 +68,10 @@ Pythonの命名規則は、Pythonコードの公式スタイルガイドであ�
   player_name = "John"
   total_score = 100
   items_in_cart = ["apple", "banana"]
-  
+
   # 悪い例
   PlayerName = "John"  # クラスのように見える
-  totalScore = 100     # Pythonのスタイルではない
+  totalScore = 100     # Python のスタイルではない
   x = ["apple", "banana"]  # 説明的でない
   ```
 
@@ -86,7 +86,7 @@ Pythonの命名規則は、Pythonコードの公式スタイルガイドであ�
   can_edit = False
   should_retry = True
   with_logging = True
-  
+
   # 接頭辞なし（コンテキストが明確な場合）
   active = True
   visible = False
@@ -188,7 +188,7 @@ Pythonの命名規則は、Pythonコードの公式スタイルガイドであ�
   // クラス
   class UserProfile {
       #privateField = 'secret';
-      
+
       constructor() {}
   }
 
@@ -209,7 +209,7 @@ Pythonの命名規則は、Pythonコードの公式スタイルガイドであ�
 
   // 定数
   const MAX_ATTEMPTS = 3;
-  
+
   // 頭字語 - 両方のスタイルを表示
   const jsonParser = new JSONParser();
   const htmlElement = document.querySelector('div');
@@ -239,7 +239,7 @@ Pythonの命名規則は、Pythonコードの公式スタイルガイドであ�
 - **URL**：Uniform Resource Locator（統一資源位置指定子）
 - **HTML**：HyperText Markup Language（ハイパーテキストマークアップ言語）
 - **XML**：eXtensible Markup Language（拡張可能マークアップ言語）
-- **JSON**：JavaScript Object Notation（JavaScriptオブジェクト表記法）
+- **JSON**：JavaScript Object Notation（JavaScript オブジェクト表記法）
 - **SQL**：Structured Query Language（構造化クエリ言語）
 - **API**：Application Programming Interface（アプリケーションプログラミングインターフェース）
 - **GUI**：Graphical User Interface（グラフィカルユーザーインターフェース）
@@ -317,7 +317,7 @@ transform = lambda x, y: (x * y) + (x / y)  # 名前付き関数の方が良い
 - JavaScript: `eslint`
 
 ### 7-2 ドキュメント
-- [PEP 8](https://peps.python.org/pep-0008/) - Pythonスタイルガイド
+- [PEP 8](https://peps.python.org/pep-0008/) - Python スタイルガイド
 - [Google Style Guides](https://google.github.io/styleguide/)
 - [Clean Code by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 

@@ -37,15 +37,15 @@ https://github.com/kkensuke/yt_dlp_transcript
 
 
 ## 3. コードの構成について
-このリポジトリは2つの使い方ができます：
+このリポジトリは 2 つの使い方ができます：
 
 ### 3.1. CLI バージョン
 #### 3.1.1. モジュール化されたバージョン `main.py`
 ```
 main.py                     # メインスクリプト
-├── url_extractor.py        # URL/Video IDの抽出
+├── url_extractor.py        # URL/Video ID の抽出
 ├── transcript_processor.py # 文字起こしの処理
-├── gemini_api.py           # AI要約の生成
+├── gemini_api.py           # AI 要約の生成
 └── utils.py                # ユーティリティ関数
 ```
 
@@ -88,7 +88,7 @@ pip install fastapi uvicorn
 
 ## 5. 基本的な使い方
 ### 5.1. GUI の使い方
-以下を実行し、ブラウザで `http://localhost:8000` を開く。抽出に10秒ほどかかります。
+以下を実行し、ブラウザで `http://localhost:8000` を開く。抽出に 10 秒ほどかかります。
 ```bash
 python app.py
 ```
@@ -114,12 +114,12 @@ python main.py 'VIDEO_ID'
 ```markdown
 # Pythonプログラミング入門講座
 
-**Video ID:** ABC123  
+**Video ID:** ABC123
 **YouTube URL:** https://www.youtube.com/watch?v=ABC123
 
 ---
 
-**[00:00:15]** こんにちは、今日は Pythonプログラミングの基礎について解説します。
+**[00:00:15]** こんにちは、今日は Python プログラミングの基礎について解説します。
 
 **[00:01:30]** まず、変数について説明しましょう。変数とは、データを保存するための箱のようなものです。
 ```
@@ -127,17 +127,17 @@ python main.py 'VIDEO_ID'
 
 **要約ファイル（summarized.md）**:
 ```markdown
-# Pythonプログラミング入門講座 - Summary
+# Python プログラミング入門講座 - Summary
 
 ## 📝 要約
-この動画では、Pythonの基本的な概念である変数、データ型、制御構造について...
+この動画では、Python の基本的な概念である変数、データ型、制御構造について...
 
 ## 🔑 主要な概念とキーワード
 - **変数（Variable）**: データを格納する容器、重要度（高）
 - **データ型（Data Type）**: 整数、文字列、リストなど、重要度（高）
 
 ## ✨ 重要ポイント
-- Pythonは初心者に優しいプログラミング言語である
+- Python は初心者に優しいプログラミング言語である
 - 変数を使うことでデータを効率的に管理できる
 ...
 ```
@@ -202,17 +202,17 @@ python main.py 'ENGLISH_VIDEO_ID' --no-summary
 python main.py 'https://www.youtube.com/watch?v=CONF_VIDEO' --summary-lang ja
 ```
 
-**活用シーン**: 
+**活用シーン**:
 - 1時間以上の動画の要点を5分で把握
 
 
 
 ## 8. トラブルシューティング
 ### 8.1. Gemini API のエラー
-1. APIキーが正しいか確認
+1. API キーが正しいか確認
 2. [Google AI Studio](https://makersuite.google.com/)でクォータを確認
 
-### 8.2. yt-dlpの抽出失敗
+### 8.2. yt-dlp の抽出失敗
 - `yt-dlp` が古い場合はアップデート：`pip install -U yt-dlp`
 - 1日の利用制限の超過している場合は、翌日まで待つ
 
@@ -235,7 +235,7 @@ prompt = f"""
 
 
 ### 9.2. 長文の処理
-50,000文字を超える長い文字起こしの場合、`main.py` の `MAX_SUMMARY_LENGTH` を調整：
+50,000 文字を超える長い文字起こしの場合、`main.py` の `MAX_SUMMARY_LENGTH` を調整：
 
 ```python
 MAX_SUMMARY_LENGTH = 100000  # より長い動画に対応
@@ -292,10 +292,10 @@ brew install --cask qlmarkdown
 
 ## 10. まとめ
 このツールを使えば、YouTube 動画から効率的に情報を抽出できます：
-- ✅ **時間の節約**: 長い動画を見る時間がない時に要約で要点把握  
-- ✅ **学習効率UP**: 文字起こしで復習しやすく  
-- ✅ **言語の壁を越える**: 英語動画→日本語要約で情報収集  
-- ✅ **ナレッジベース構築**: 技術動画をテキスト資料として蓄積  
+- ✅ **時間の節約**: 長い動画を見る時間がない時に要約で要点把握
+- ✅ **学習効率 UP**: 文字起こしで復習しやすく
+- ✅ **言語の壁を越える**: 英語動画→日本語要約で情報収集
+- ✅ **ナレッジベース構築**: 技術動画をテキスト資料として蓄積
 
 
 ---

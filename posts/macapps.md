@@ -1,7 +1,7 @@
 ---
-title: "Macアプリ"
+title: "Mac アプリ"
 date: "2022-10-18"
-subtitle: "便利で無料のMacアプリ"
+subtitle: "便利で無料の Mac アプリ"
 previewImage: "/images/monitorcontrol.jpeg"
 tags: [MacOS, App]
 ---
@@ -26,7 +26,7 @@ https://freemacsoft.net/appcleaner/
 https://bitwarden.com/
 :::
 
-`Bitwarden` は、無料で便利かつ安全なオープンソースのパスワードマネージャーです。Mac、Windows、Linux、Android、iOSに対応し、ブラウザ拡張機能としても使用できます。
+`Bitwarden` は、無料で便利かつ安全なオープンソースのパスワードマネージャーです。Mac、Windows、Linux、Android、iOS に対応し、ブラウザ拡張機能としても使用できます。
 
 
 ## Clipy
@@ -53,7 +53,7 @@ https://coteditor.com/
 https://www.coconut-flavour.com/coconutbattery/
 :::
 
-`coconutBattery` を使うと、Mac、iPad、iPhoneのバッテリー情報を確認できます。
+`coconutBattery` を使うと、Mac、iPad、iPhone のバッテリー情報を確認できます。
 
 ![画像](/images/coconutBattery.jpeg "width=300px")
 
@@ -64,7 +64,7 @@ https://www.coconut-flavour.com/coconutbattery/
 https://app.diagrams.net/
 :::
 
-`draw.io` は、フローチャートやネットワーク図などを作成できる無料のオープンソース作図ソフトウェアです。UIがシンプルで使いやすく、ブラウザまたはデスクトップアプリから利用できます。図の中に $\LaTeX$ の数式を配置することもできます。
+`draw.io` は、フローチャートやネットワーク図などを作成できる無料のオープンソース作図ソフトウェアです。UI がシンプルで使いやすく、ブラウザまたはデスクトップアプリから利用できます。図の中に $\LaTeX$ の数式を配置することもできます。
 
 ![画像](/images/drawio.jpeg "width=500px")
 
@@ -75,7 +75,7 @@ https://app.diagrams.net/
 https://handmirror.app/
 :::
 
-`Hand Mirror` は、Macのカメラで自分の顔を確認するための無料アプリです。メニューバーのアイコンまたはショートカットキーから開けます。
+`Hand Mirror` は、Mac のカメラで自分の顔を確認するための無料アプリです。メニューバーのアイコンまたはショートカットキーから開けます。
 
 
 ## ImageOptim
@@ -97,7 +97,7 @@ $ open -a ImageOptim .
 https://mathpix.com/
 :::
 
-`Mathpix Snipping Tool` は、画像をLaTeXへ変換する無料アプリです。`cmd + ctrl + M` でスクリーンショットを撮ると、画像内の数式をLaTeXへ変換できます。メニューバーからLaTeX数式の画像を作成することもできます。
+`Mathpix Snipping Tool` は、画像を LaTeX へ変換する無料アプリです。`cmd + ctrl + M` でスクリーンショットを撮ると、画像内の数式を LaTeX へ変換できます。メニューバーから LaTeX 数式の画像を作成することもできます。
 
 ![画像](/images/mathpix.jpeg "width=400px")
 
@@ -130,7 +130,7 @@ https://rectangleapp.com/
 https://cordlessdog.com/stay/
 :::
 
-Rectangleとあわせて紹介したいのが `Stay` です。デスクトップ上にある複数のアプリウィンドウの配置を保存できます。複数のモニターごとにレイアウトを保存することも可能です。ノートパソコンをモニターへ接続または取り外すたびに、ウィンドウサイズを調整し直す必要がなくなります。
+Rectangle とあわせて紹介したいのが `Stay` です。デスクトップ上にある複数のアプリウィンドウの配置を保存できます。複数のモニターごとにレイアウトを保存することも可能です。ノートパソコンをモニターへ接続または取り外すたびに、ウィンドウサイズを調整し直す必要がなくなります。
 
 
 ## Shottr
@@ -141,7 +141,7 @@ https://shottr.cc/
 
 - `Shottr` は無料のスクリーンショットアプリです。画面全体は `cmd + shift + 1`、選択範囲は `cmd + shift + 2`、アクティブウィンドウは `cmd + shift + 8`、スクロールを含むページ全体は `cmd + shift + 9` で撮影できます。
 - 撮影直後にスクリーンショットを編集できます。機密情報のぼかし、不要部分の削除、矢印、ハイライト、テキストボックス、長方形などを追加できます。
-- 特に便利なのは、**多言語OCR**でスクリーンショットをテキストへ変換できる機能です。ショートカットは `cmd + option + ctrl + o` です。
+- 特に便利なのは、**多言語OCR** でスクリーンショットをテキストへ変換できる機能です。ショートカットは `cmd + option + ctrl + o` です。
 
 
 ## Syntax Highlight
@@ -150,7 +150,7 @@ https://shottr.cc/
 https://github.com/sbarex/SourceCodeSyntaxHighlight
 :::
 
-`Syntax Highlight` は、Quick Lookでソースコードのシンタックスハイライトを表示する無料でオープンソースのアプリです。ファイルを選択してスペースキーを押すと確認できます。
+`Syntax Highlight` は、Quick Look でソースコードのシンタックスハイライトを表示する無料でオープンソースのアプリです。ファイルを選択してスペースキーを押すと確認できます。
 
 
 ## QLMarkdown
@@ -159,7 +159,7 @@ https://github.com/sbarex/SourceCodeSyntaxHighlight
 https://github.com/sbarex/QLMarkdown
 :::
 
-同じくQuick Look用のアプリとして `QLMarkdown` があります。Markdownをレンダリングして読みやすく表示します。
+同じく Quick Look 用のアプリとして `QLMarkdown` があります。Markdown をレンダリングして読みやすく表示します。
 
 
 ## Unsplash Wallpapers
@@ -177,4 +177,4 @@ https://apps.apple.com/us/app/unsplash-wallpapers/
 https://www.zotero.org/
 :::
 
-Zoteroは、研究論文を管理するための無料でオープンソースのアプリです。タグやフォルダを使って論文を整理できます。ブラウザ拡張機能の [Zotero Connector](https://www.zotero.org/download/connectors) を使えば、ブラウザからワンクリックで論文を取り込めます。
+`Zotero` は、研究論文を管理するための無料でオープンソースのアプリです。タグやフォルダを使って論文を整理できます。ブラウザ拡張機能の [Zotero Connector](https://www.zotero.org/download/connectors) を使えば、ブラウザからワンクリックで論文を取り込めます。

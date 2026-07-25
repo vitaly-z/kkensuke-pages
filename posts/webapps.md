@@ -1,7 +1,7 @@
 ---
-title: "Webアプリ"
+title: "便利な Web アプリ"
 date: "2022-10-18"
-subtitle: "便利なWebアプリ"
+subtitle: "便利な Web アプリ"
 previewImage: "/images/10-minute-mail.jpeg"
 tags: [App]
 ---
@@ -9,21 +9,21 @@ tags: [App]
 
 ## [10 Minute Mail](https://10minemail.com/en/)
 
-10分間だけ使える一時的なメールアドレスを取得できます。普段のメールアドレスを使いたくないサービスへの登録に便利です。利用時間を延長することもできます。同様のサービスはほかにも多数あります。
+10 分間だけ使える一時的なメールアドレスを取得できます。普段のメールアドレスを使いたくないサービスへの登録に便利です。利用時間を延長することもできます。同様のサービスはほかにも多数あります。
 
 ![画像](/images/10-minute-mail.jpeg)
 
 
 ## [PDF Compressor](https://www.ilovepdf.com/compress_pdf)
 
-容量の大きなPDFファイルを圧縮できます。同様のサービスは多数ありますが、このサービスは使いやすくおすすめです。
+容量の大きな PDF ファイルを圧縮できます。同様のサービスは多数ありますが、このサービスは使いやすくおすすめです。
 
 ![画像](/images/pdf.jpeg)
 
 
 ## [PDF Resizer](https://pdfresizer.com/crop)
 
-PDFファイルをさまざまな方法で編集できます。特に便利な機能の1つがトリミングです。
+PDF ファイルをさまざまな方法で編集できます。特に便利な機能の 1 つがトリミングです。
 
 ![画像](/images/pdfresizer.jpeg)
 
@@ -44,6 +44,6 @@ PDFファイルをさまざまな方法で編集できます。特に便利な�
 
 ## [Online Timer](https://vclock.com/timer/)
 
-シンプルなUIのオンラインタイマーです。
+シンプルな UI のオンラインタイマーです。
 
 ![画像](/images/online-timer.jpeg)
